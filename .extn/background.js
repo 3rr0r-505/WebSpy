@@ -22,5 +22,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 });
 
 
-// fetch('http://YOUR_SERVER_IP_OR_DOMAIN:3000/log-data',  => Update this URL to work beyond localhost 
-// fetch('http://localhost:3000/log-data', {
+// fetch('http://YOUR_SERVER_IP_OR_DOMAIN:3000/log-data',  ==> Update this URL to work beyond localhost 
+// fetch('http://localhost:3000/log-data',  --> For localhost
+//fetch('https://w3bspy-render.onrender.com/api/log-data', ==> for server on render
+// fetch('https://w3b-spy-server.vercel.app/log-data', ==> for server on vercel
