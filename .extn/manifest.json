@@ -1,8 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "WebSpy",
-  "description": "This extension logs keystrokes and visited sites.",
+  "name": "Bad Jokes",
+  "description": "A joke extension",
   "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+      "128": "logo.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
